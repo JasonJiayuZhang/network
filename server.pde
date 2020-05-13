@@ -69,6 +69,7 @@ void mouseReleased() {
   int row = (int)mouseX/100;
   int col = (int)mouseY/100;
   if (myturn && grid[row][col] == 0) {
+    //check if win or not not working tho
     //for (int i = 0; i < r; i++) {
     //  if (grid[i][0].getValue() == 1 && grid[i][1].getValue() ==  1 && grid[i][2].getValue() == 1) {
     //    println("itworks");
